@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    
+}
+
+header .line{
+    background-color: #7D6B7D;
+    height: 100px;
+}
+.line a img{
+    width: 100px;
+    margin-left: 150px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    
+}
+.titulo h1{
+    color: #7D6B7D; 
+}
+.login{
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+}
+.login input{
+    margin-top: 15px;
+    padding: 7px;
+    outline:none
+}
+.login button{
+    margin-top: 15px;
+    margin-left: 40px;
+    padding: 7px;
+    width: 100px;
+    background-color: #7D6B7D;
+    border: 0;
+    color: white;
+}
+.login button:hover{
+    background-color: #A3A1A8;
+}
+.login .l3{
+    background-image: url(../images/olho10.png);
+    width: 28px;
+    height: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    margin:0;
+    margin-right: 6px;
+    
+}
+
+.cadastrolink{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.cadastrolink a{
+    text-decoration: none;
+    color: black;
+}
+.cadastrolink a:hover{
+    color: #A3A1A8;
+    text-decoration: underline;
+}
+.cadastro{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+        "item1 item1 item2 item2"
+        "item3 item3 item3 item5"
+        "item4 item4 item4 item6"
+        "item7 item7 item7 item7"
+    ;
+    
+}
+.cadastro input{
+    margin: 7px;
+    padding: 7px;
+    outline: none;
+}
+.item1{
+    grid-area: item1;
+}
+.item2{
+    grid-area: item2;
+}
+.item3{
+    grid-area: item3;
+}
+.item4{
+    grid-area: item4;
+}
+.item5{
+    grid-area: item5;
+}
+.item6{
+    grid-area: item6;
+}
+.item7{
+    grid-area: item7;
+}
+.cadastro .olho{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.cadastro .criar{
+    padding: 7px;
+    margin-top: 7px;
+    width: 100px;
+    margin-left: 150px;
+    background-color:#7D6B7D;
+    color: white;
+    border: none;
+}
+.cadastro .criar:hover{
+    background-color: #A3A1A8;
+}
